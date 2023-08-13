@@ -10,6 +10,13 @@ module.exports = {
             define: {
                 underscored: true
             }
-        }
-    },
-}
+        },
+        timezone: '-03:00',
+        define: {
+            freezeTableName: true,
+            timestamps: false,
+            createdAt: true,
+            updatedAt: true
+        },
+    }
+};
