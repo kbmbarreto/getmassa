@@ -7,56 +7,56 @@ module.exports = (app) => {
             primaryKey: true,
             autoIncrement: true
         },
-        System: {
+        system: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 notEmpty: true
             }
         },
-        Company: {
+        company: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 notEmpty: true
             }
         },
-        Environment: {
+        environment: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 notEmpty: true
             }
         },
-        Url: {
+        url: {
             type: DataTypes.STRING,
             allowNull: true,
             validate: {
                 notEmpty: false
             }
         },
-        Description: {
+        description: {
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 notEmpty: true
             }
         },
-        User: {
+        user: {
             type: DataTypes.STRING,
             allowNull: true,
             validate: {
                 notEmpty: false
             }
         },
-        Password: {
+        password: {
             type: DataTypes.STRING,
             allowNull: true,
             validate: {
                 notEmpty: false
             }
         },
-        Notes: {
+        notes: {
             type: DataTypes.STRING,
             allowNull: true,
             validate: {
