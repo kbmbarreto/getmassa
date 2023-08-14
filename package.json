@@ -10,10 +10,13 @@
   "author": "Kleber Barreto de Macedo",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
     "consign": "^0.1.6",
-    "express": "^4.18.2",
-    "sequelize": "^6.32.1",
-    "tedious": "^16.4.0"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^7.0.0",
+    "sequelize": "^6.6.5",
+    "tedious": "^11.0.0"
   }
 }
