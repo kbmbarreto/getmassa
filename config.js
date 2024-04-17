@@ -2,11 +2,11 @@ module.exports = {
     db: {
         database: 'getmassa',
         username: 'developer',
-        password: 'Developer2020@',
+        password: 'Dev2020@',
         params: {
-            dialect: 'mssql',
+            dialect: 'mysql',
             host: 'localhost',
-            port: 1433,
+            port: 3306,
             define: {
                 underscored: true
             }

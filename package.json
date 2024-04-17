@@ -15,8 +15,9 @@
     "consign": "^0.1.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "helmet": "^7.0.0",
+    "getmassa": "file:",
+    "helmet": "7.1.0",
     "sequelize": "^6.6.5",
-    "tedious": "^11.0.0"
+    "tedious": "^15.0.0"
   }
 }
